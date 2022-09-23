@@ -3,12 +3,14 @@ cask_args appdir: '/Applications'
 # Prerequisites for some of the apps
 tap 'homebrew/bundle'
 tap 'homebrew/cask'
+tap 'koekeishiya/formulae'
 brew 'java11'
 cask 'xquartz'
 
 # Stuff
 brew 'asciidoctor'
 brew 'azure-cli'
+brew 'cmake'
 brew 'coreutils'
 brew 'ffmpeg'
 brew 'flac'
@@ -37,9 +39,11 @@ brew 'pipx'
 brew 'pmd'
 brew 'pyenv'
 brew 'readline'
+brew 'skhd'
 brew 'spark'
 brew 'tmux'
 brew 'watch'
+brew 'yabai'
 brew 'yarn'
 
 # More stuff
