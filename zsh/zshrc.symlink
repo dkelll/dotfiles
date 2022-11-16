@@ -32,6 +32,9 @@ done
 autoload -U compinit
 compinit
 
+autoload -U bashcompinit
+bashcompinit
+
 # load every completion after autocomplete loads
 for file in ${(M)config_files:#*/completion.zsh}
 do
@@ -57,4 +60,15 @@ then
   compinit
 fi 
 eval 
-#SFDX_AC_ZSH_SETUP_PATH=~/Library/Caches/sfdx/autocomplete/zsh_setup && test -f $SFDX_AC_ZSH_SETUP_PATH && source $SFDX_AC_ZSH_SETUP_PATH; # sfdx autocomplete setup
+#SFDX_AC_ZSH_SETUP_PATH=~/Library/Caches/sfdx/autocomplete/zsh_setup && test -f $SFDX_AC_ZSH_SETUP_PATH && source $SFDX_AC_ZSH_SETUP_PATH; # sfdx autocomplete setupeval 
+SFDX_AC_ZSH_SETUP_PATH=/Users/david.kelly/Library/Caches/sfdx/autocomplete/zsh_setup && test -f $SFDX_AC_ZSH_SETUP_PATH && source $SFDX_AC_ZSH_SETUP_PATH; # sfdx autocomplete setup
+# Created by `pipx` on 2022-10-31 17:30:45
+export PATH="$PATH:/Users/david.kelly/.local/bin"
+export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
+export XDG_CONFIG_HOME=$ZSH
+
+## Script this out plz ##
+#
+# Packer is a package manager for nvim
+# git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+#   ~/.local/share/nvim/site/pack/packer/start/packer.nvim
