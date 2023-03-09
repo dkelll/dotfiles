@@ -33,3 +33,7 @@
         default = simple
 [credential]
 	helper = osxkeychain
+[init]
+	defaultBranch = main
+[user]
+	signingkey = 3223B2602BA471DEBCE50A8646D4AC7C97B5257B

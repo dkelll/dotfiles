@@ -72,3 +72,4 @@ export XDG_CONFIG_HOME=$ZSH
 # Packer is a package manager for nvim
 # git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 #   ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+export GPG_TTY=$(tty)
