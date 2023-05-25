@@ -9,7 +9,6 @@ cask 'xquartz'
 
 # Stuff
 brew 'asciidoctor'
-brew 'azure-cli'
 brew 'cmake'
 brew 'coreutils'
 brew 'ffmpeg'
@@ -51,14 +50,15 @@ brew 'tmux'
 brew 'watch'
 brew 'yabai'
 brew 'yarn'
+brew 'zig'
 
-# More stuff
+# More Stuff
 cask 'aerial'
 cask 'alfred'
 cask 'brave-browser'
 cask 'discord'
 cask 'homebrew/cask/dash'
-cask 'figma'
+cask 'flameshot'
 cask 'gimp'
 cask 'google-drive-file-stream'
 cask 'inkscape'
@@ -84,4 +84,4 @@ cask 'webpquicklook'
 
 # Mac App Store items
 mas 'RadarScope', id: 432027450
-mas 'LastPass', id: 926036361
+# mas 'LastPass', id: 926036361

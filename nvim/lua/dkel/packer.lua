@@ -43,7 +43,7 @@ return require("packer").startup(function(use)
   use("folke/tokyonight.nvim")
   use({"catppuccin/nvim", as = "catppuccin"})
   use({"rose-pine/neovim", as = "rose-pine"})
-  use("EdenEast/nightfox.nvim")
+  use({"EdenEast/nightfox.nvim", as = "nightfox"})
   use("gruvbox-community/gruvbox")
   use("lunarvim/darkplus.nvim")
 

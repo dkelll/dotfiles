@@ -73,3 +73,5 @@ export XDG_CONFIG_HOME=$ZSH
 # git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 #   ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 export GPG_TTY=$(tty)
+eval 
+SF_AC_ZSH_SETUP_PATH=/Users/david.kelly/Library/Caches/sf/autocomplete/zsh_setup && test -f $SF_AC_ZSH_SETUP_PATH && source $SF_AC_ZSH_SETUP_PATH; # sf autocomplete setup
