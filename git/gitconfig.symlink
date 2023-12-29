@@ -15,7 +15,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+	excludesfile = /Users/david.kelly/.gitignore
         editor = code
 [apply]
         whitespace = nowarn
@@ -30,6 +30,7 @@
         # for more information on different options of the below setting.
         #
         # Setting to git 2.0 default to suppress warning message
+        autoSetupRemote = true
         default = simple
 [credential]
 	helper = osxkeychain
@@ -37,3 +38,9 @@
 	defaultBranch = main
 [user]
 	signingkey = 3223B2602BA471DEBCE50A8646D4AC7C97B5257B
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

@@ -10,7 +10,7 @@ return require("packer").startup(function(use)
   -- fuzzy finder
   use ("nvim-telescope/telescope.nvim")
   use("nvim-lua/plenary.nvim")
-  use("ThePrimeagen/harpoon")
+  use({"ThePrimeagen/harpoon", branch = 'harpoon2', requires = {"nvim-lua/plenary.nvim"}})
   use("ThePrimeagen/vim-be-good")
 
   -- statusline stuff

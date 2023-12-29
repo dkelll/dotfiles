@@ -1,5 +1,5 @@
 require'nvim-treesitter.configs'.setup {
-    ensure_installed = { "help", "javascript", "lua", "rust" },
+    ensure_installed = { "help", "javascript", "lua", "rust","apex","query","soql","sosl" },
     sync_install = false,
     auto_install = true,
 

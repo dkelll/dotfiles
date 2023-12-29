@@ -3,8 +3,8 @@ require("statusline")
 
 vim.filetype.add({
     extension = {
-        cls = "apexcode",
-        trigger = "apexcode",
+        cls = "apex",
+        trigger = "apex",
         soql = "soql",
         sosl = "sosl",
     },

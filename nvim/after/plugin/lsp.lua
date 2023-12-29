@@ -4,8 +4,6 @@ lsp.preset('recommended')
 lsp.ensure_installed({
     'apex_ls',
     'eslint',
-    'sumneko_lua',
-    'rust_analyzer',
 })
 
 local cmp = require('cmp')
