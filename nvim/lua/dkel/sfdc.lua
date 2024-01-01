@@ -1,7 +1,7 @@
 
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
-
-parser_config.apex = {
+-- 
+parser_config.apexdk = {
   install_info = {
     -- url = "https://github.com/dkelll/tree-sitter-apex", -- local path or git repo
      url = "https://github.com/dkelll/tree-sitter-apex", -- local path or git repo
@@ -43,7 +43,7 @@ parser_config.sosl = {
 }
 
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = {"apex","soql","sosl"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  ensure_installed = {"apexdk","soql","sosl"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   ignore_install = {}, -- List of parsers to ignore installing
   highlight = {
     enable = true, -- false will disable the whole extension

@@ -58,6 +58,6 @@ return require("packer").startup(function(use)
   use("tpope/vim-fugitive")
 
   -- my attempt to sfdx with neovim (local package for now)
-  use("/Users/david.kelly/Projects/plugins/sfdx.nvim")
+  -- use("/Users/david.kelly/Projects/plugins/sfdx.nvim")
 
 end)
