@@ -1,7 +1,6 @@
 require("dkel")
 require("statusline")
 
-
 vim.filetype.add({
     extension = {
         apex = "apex",
