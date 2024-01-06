@@ -66,6 +66,7 @@ SFDX_AC_ZSH_SETUP_PATH=/Users/david.kelly/Library/Caches/sfdx/autocomplete/zsh_s
 export PATH="$PATH:/Users/david.kelly/.local/bin"
 export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
 export XDG_CONFIG_HOME=$ZSH
+export PATH="$HOME/neovim/bin:$PATH"
 
 ## Script this out plz ##
 #
