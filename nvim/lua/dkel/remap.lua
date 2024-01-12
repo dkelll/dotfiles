@@ -1,6 +1,3 @@
-local nnoremap = require("dkel.keymap").nnoremap
-local xnoremap = require("dkel.keymap").xnoremap
-
 -- quick exit back to netrw
 vim.keymap.set("n", "<leader>pv", "<cmd>Ex<CR>")
 
