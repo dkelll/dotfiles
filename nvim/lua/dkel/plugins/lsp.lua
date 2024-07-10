@@ -1,5 +1,4 @@
 return {
-    
   -- LSP configs
   {
       'VonHeikemen/lsp-zero.nvim',
