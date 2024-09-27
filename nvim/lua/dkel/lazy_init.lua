@@ -11,5 +11,8 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("dkel.plugins")
+require("lazy").setup({
+    spec = "dkel.lazy",
+    change_detection = { notify = false }
+})
 
