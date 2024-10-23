@@ -7,11 +7,9 @@ if test ! "$(which code)"
 fi
 
 echo "installing vscode extensions"
-code --install-extension salesforce.salesforcedx-vscode > /dev/null
-code --install-extension dbaeumer.vscode-eslint > /dev/null
 code --install-extension donjayamanne.githistory > /dev/null
 code --install-extension eamodio.gitlens > /dev/null
-code --install-extension davidanson.vscode-markdownlint > /dev/null
-code --install-extension shd101wyy.markdown-preview-enhanced > /dev/null
-code --install-extension esbenp.prettier-vscode > /dev/null
+code --install-extension salesforce.salesforcedx-vscode > /dev/null
+code --install-extension salesforce.salesforcedx-vscode-expanded > /dev/null
+code --install-extension salesforce.sfdocs-vscode-extension-pack > /dev/null
 echo "vscode extensions installed"

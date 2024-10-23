@@ -58,13 +58,11 @@ then
 
   autoload -Uz compinit
   compinit
-fi 
-eval 
-#SFDX_AC_ZSH_SETUP_PATH=~/Library/Caches/sfdx/autocomplete/zsh_setup && test -f $SFDX_AC_ZSH_SETUP_PATH && source $SFDX_AC_ZSH_SETUP_PATH; # sfdx autocomplete setupeval 
-SFDX_AC_ZSH_SETUP_PATH=/Users/david.kelly/Library/Caches/sfdx/autocomplete/zsh_setup && test -f $SFDX_AC_ZSH_SETUP_PATH && source $SFDX_AC_ZSH_SETUP_PATH; # sfdx autocomplete setup
+fi
+eval
 # Created by `pipx` on 2022-10-31 17:30:45
 export PATH="$PATH:/Users/david.kelly/.local/bin"
-export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export XDG_CONFIG_HOME=$ZSH
 export PATH="$HOME/neovim/bin:$PATH"
 
@@ -74,5 +72,7 @@ export PATH="$HOME/neovim/bin:$PATH"
 # git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 #   ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 export GPG_TTY=$(tty)
+eval
+
 eval 
-SF_AC_ZSH_SETUP_PATH=/Users/david.kelly/Library/Caches/sf/autocomplete/zsh_setup && test -f $SF_AC_ZSH_SETUP_PATH && source $SF_AC_ZSH_SETUP_PATH; # sf autocomplete setup
+SF_AC_ZSH_SETUP_PATH=/Users/e191319/Library/Caches/sf/autocomplete/zsh_setup && test -f $SF_AC_ZSH_SETUP_PATH && source $SF_AC_ZSH_SETUP_PATH; # sf autocomplete setup

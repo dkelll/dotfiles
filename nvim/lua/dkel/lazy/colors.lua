@@ -12,6 +12,7 @@ return {
     { "EdenEast/nightfox.nvim", name = "nightfox" },
     { "lunarvim/darkplus.nvim" },
     { "erikbackman/brightburn.vim" },
+    { "dracula/vim", name = "dracula" },
 
     {
         "ellisonleao/gruvbox.nvim",
