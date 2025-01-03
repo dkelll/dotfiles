@@ -21,7 +21,7 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 -- "Don't ever press capital Q. Honestly it's the worst place in the universe." -ThePrimeagen, Dec 2022
 vim.keymap.set("n", "Q", "<nop>")
-
+vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 -- Stole this from Prime. Pretty sure it formats something but I don't know how to use it yet...
 vim.keymap.set("n", "<leader>f", function()
     vim.lsp.buf.format()

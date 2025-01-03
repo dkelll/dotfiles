@@ -36,11 +36,9 @@
 	helper = osxkeychain
 [init]
 	defaultBranch = main
-[user]
-	signingkey = 3223B2602BA471DEBCE50A8646D4AC7C97B5257B
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true

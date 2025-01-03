@@ -74,5 +74,9 @@ export PATH="$HOME/neovim/bin:$PATH"
 export GPG_TTY=$(tty)
 eval
 
-eval 
+# Retain font colors when using grep
+export GREP_COLOR='1;37;41'
+alias grep='grep --color=auto'
+
+eval
 SF_AC_ZSH_SETUP_PATH=/Users/e191319/Library/Caches/sf/autocomplete/zsh_setup && test -f $SF_AC_ZSH_SETUP_PATH && source $SF_AC_ZSH_SETUP_PATH; # sf autocomplete setup
