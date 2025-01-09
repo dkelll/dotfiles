@@ -8,3 +8,5 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+alias sforgs="cat ~/.sfdx/alias.json | jq -r .orgs"
