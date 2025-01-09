@@ -9,6 +9,7 @@ cask 'xquartz'
 
 # Stuff
 brew 'asciidoctor'
+brew 'amazon-q'
 brew 'awscli'
 brew 'cmake'
 brew 'coreutils'
